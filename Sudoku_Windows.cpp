@@ -231,6 +231,7 @@ bool simplif_lig(Jeu &J)            //Fonction qui vas simplifier la ligne et qu
             return true;
         }
     }
+    return false;
 }
 
 bool simplif_col(Jeu &J)            //Fonction qui vas simplifier la colonne et qui vas placer une valeur si celle si n'apparait qu'une seul fois par colonne.
@@ -260,6 +261,7 @@ bool simplif_col(Jeu &J)            //Fonction qui vas simplifier la colonne et 
             }
         }
     }
+    return false;
 }
 
 bool simplif_car(Jeu &J)                //Fonction qui vas simplifier le carré et qui vas placer une valeur si celle si n'apparait qu'une seul fois par carré.
@@ -295,6 +297,7 @@ bool simplif_car(Jeu &J)                //Fonction qui vas simplifier le carré e
             }
         }
     }
+    return false;
 }
 
 bool simplif_val(Jeu &J)            //Fonction qui vas simplifier la valeur et qui vas placer une valeur si il n'y a qu'une valeur possible dans une case.
@@ -323,6 +326,7 @@ bool simplif_val(Jeu &J)            //Fonction qui vas simplifier la valeur et q
             }
         }
     }
+    return false;
 }
 
 bool fin(Jeu J)                             //Fonction qui test si la grille est remplie.

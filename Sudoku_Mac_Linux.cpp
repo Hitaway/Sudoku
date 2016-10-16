@@ -170,6 +170,7 @@ bool simplif_lig(Jeu &J)
             return true;
         }
     }
+    return false;
 }
 
 bool simplif_col(Jeu &J)
@@ -202,6 +203,7 @@ bool simplif_col(Jeu &J)
             }
         }
     }
+    return false;
 }
 
 bool simplif_car(Jeu &J)
@@ -240,6 +242,7 @@ bool simplif_car(Jeu &J)
             }
         }
     }
+    return false;
 }
 
 bool simplif_val(Jeu &J)
@@ -269,6 +272,7 @@ bool simplif_val(Jeu &J)
             }
         }
     }
+    return false;
 }
 
 bool fin(Jeu J)
