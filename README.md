@@ -6,7 +6,7 @@ Pour l'éxecution sur Windows et Linux je me suis servis du logiciel CodeBlocks 
 g++ -o exe Sudoku_Mac_Linux.cpp <br/>
 ./exe
 
-exemple de grille à saisir rapidement pour jouer: 
+exemple de grille à saisir rapidement pour jouer: <br/>
 1ere grille: 005019008006570032008604507902007150000090000017400209409706800720081600800240700<br/>
 2eme grille: 040300001109267300563000000200001609805603204406900007000000158001859403300002070<br/>
 
